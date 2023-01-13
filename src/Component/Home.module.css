@@ -1,0 +1,56 @@
+.mango{
+    background-image: url(https://onnitacademy.imgix.net/wp-content/uploads/2017/04/MusclePumpTraining-2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+  
+  }
+  .text{
+    position: absolute;
+    top: 50vh;
+    font-size: 20%;
+    height: 5vh;
+
+  }
+  .btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 5em;
+    margin-left: 10em;
+    
+  }
+  .abc{
+    position: absolute;
+    font-size: medium;
+    background-color:red;
+    color: white;
+    margin-left: 10em;
+    margin-top: 2em;
+    border-radius: 20%;
+    padding:1em ;
+
+  }
+  .abd{
+    font-size: medium;
+    background-color:red;
+    color: white;
+    margin-left: 2px;
+    margin-top: 2em;
+    border-radius: 20%;
+    padding:1em ;
+    
+  }
+  .pr{
+    font-size: 200%;
+    color:rgb(230, 223, 26);
+    font-weight: bolder;
+    padding-top: 60vh;
+    padding-left: 1em;
+    text-shadow: 3px 3px chocolate;
+
+  }

@@ -1,0 +1,88 @@
+.wrap{
+    padding: 9.5em  4em 4em 4em;
+    display: flex;
+    border: 2px solid black;
+    height: 85vh;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background: rgb(25,8,37);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,8,8,1) 0%, rgba(212,62,29,1) 52%, rgba(80,49,49,1) 100%);
+  }
+  .day{
+   /* padding-top: 4em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px solid black;
+    height: 60vh;
+    width: 20%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,37,25,1) 0%, rgba(154,85,111,1) 49%, rgba(55,24,24,1) 90%);
+  color: white;
+  border-radius: 1em;
+  }
+  
+  .day:hover {
+    /* padding-top: 1em ; */
+    /* height: 70vh; */
+    transform: scale(1.2);
+    color: black;
+    background: lightgray;
+  }
+  
+  
+  .month{
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px solid black;
+    height: 60vh;
+    width: 20%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,37,25,1) 0%, rgba(154,85,111,1) 49%, rgba(55,24,24,1) 90%);
+  color: white;
+  
+  }
+  .month:hover{
+    transform: scale(1.2);
+    /* height: 70vh; */
+    color: black;
+    background: lightgray;
+  }
+  
+  .price{
+    font-size:4em;
+  }
+   .price:hover{
+    font-size:4em;
+    color: green;
+  }
+  .content{
+    width: 40%;
+    color: white;
+    
+   
+  }
+  
+  .btn{
+    width: 11em;
+    padding: 0.7em;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,53,8,1) 0%, rgba(201,39,89,1) 49%, rgba(100,40,67,1) 93%);
+color: white;
+    
+  }
+  .list{
+    list-style: none;
+   
+  }
+  
+  .li{
+    
+    margin-top: 0.6em;
+  }
